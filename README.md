@@ -7,7 +7,7 @@ The project includes:
 -----
 I. INSTALLATION
 
-The project uses the following libraries:
+The project uses the following libraries:<br>
 *numpy==1.12.1 <br>
 plotly==2.0.15 <br>
 nltk==3.2.5 <br>
@@ -62,11 +62,11 @@ III. RESULTS
 
 The model achieves an accuracy rate of ~95%, correctly predicting no category for 90% of the cases and correctly classifying the messages for one of the agencies in 5% of the cases. The model used the accuracy ratio for scoring ((TP + TN)/Total Population). In real-life, different weights would be assigned to different prediction categories and the model would be optimized for that (e.g. TP = 100; FP = 10; FN = 50; TN = 1).
 
-Achieved overall confusion matrix in %:
-					Predicted category
-					False   True
-Real		False [ 90.0%   1.1%]
-category	True  [  3.9%   4.9%]
+Achieved overall confusion matrix in %:<br>
+					Predicted category<br>
+					False   True<br>
+Real		False [ 90.0%   1.1%]<br>
+category	True  [  3.9%   4.9%]<br>
 
 IV. KEY TECHNICALITIES
 
