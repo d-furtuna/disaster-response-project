@@ -36,28 +36,28 @@ II. FILE DESCRIPTIONS
 
 | app <br>
 | - templates <br>
-|   | - master.html # main page of web app <br>
-|   | - go.html # classification result page of web app <br>
-| - run.py # Flask file that runs app <br>
-| - custom_scorer_module.py # the used custom scoring function for the model <br>
+|   | - master.html *# main page of web app <br>*
+|   | - go.html *# classification result page of web app <br>*
+| - run.py *# Flask file that runs app <br>*
+| - custom_scorer_module.py *# the used custom scoring function for the model <br>*
 
 | data <br>
-| - disaster_categories.csv # data to process <br>
-| - disaster_messages.csv # data to process <br>
-| - process_data.py # ETL Pipeline preparation script <br>
-| - DisasterResponse.db # database with cleaned data <br>
-| - output.txt # captured output in one run of the process_data.py <br>
+| - disaster_categories.csv *# data to process <br>*
+| - disaster_messages.csv *# data to process <br>*
+| - process_data.py *# ETL Pipeline preparation script <br>*
+| - DisasterResponse.db* # database with cleaned data <br>*
+| - output.txt *# captured output in one run of the process_data.py <br>*
 
 | models <br>
-| - train_classifier.py # script that creates the machine learning model <br>
-| - (classifier.pkl) # saved model; missing due to GitHub size requirements <br>
-| - output.txt # captured output in one run of the train_classifier.py <br>
-| - custom_scorer_module.py # the used custom scoring function for the model <br>
+| - train_classifier.py *# script that creates the machine learning model <br>*
+| - (classifier.pkl) *# saved model; missing due to GitHub size requirements <br>*
+| - output.txt *# captured output in one run of the train_classifier.py <br>*
+| - custom_scorer_module.py *# the used custom scoring function for the model <br>*
 
-| Chart.png  # screenshot of the web-page with a chart <br>
-| Classification.png  # screenshot of the web-page outputing classification results <br>
+| Chart.png  *# screenshot of the web-page with a chart <br>*
+| Classification.png  *# screenshot of the web-page outputing classification results <br>*
 
-| README.md # this file
+| README.md *# this file*
 
 
 -----
