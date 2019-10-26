@@ -45,7 +45,7 @@ II. FILE DESCRIPTIONS
 | - disaster_categories.csv *# data to process <br>*
 | - disaster_messages.csv *# data to process <br>*
 | - process_data.py *# ETL Pipeline preparation script <br>*
-| - DisasterResponse.db* # database with cleaned data <br>*
+| - DisasterResponse.db *# database with cleaned data <br>*
 | - output.txt *# captured output in one run of the process_data.py <br>*
 
 | models <br>
