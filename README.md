@@ -54,6 +54,9 @@ II. FILE DESCRIPTIONS
 | - output.txt # captured output in one run of the train_classifier.py <br>
 | - custom_scorer_module.py # the used custom scoring function for the model <br>
 
+| Chart.png  # screenshot of the web-page with a chart <br>
+| Classification.png  # screenshot of the web-page outputing classification results <br>
+
 | README.md # this file
 
 
@@ -62,7 +65,7 @@ III. RESULTS
 
 The model achieves an accuracy rate of ~95%, correctly predicting no category for 90% of the cases and correctly classifying the messages for one of the agencies in 5% of the cases. The model used the accuracy ratio for scoring ((TP + TN)/Total Population). In real-life, different weights would be assigned to different prediction categories and the model would be optimized for that (e.g. TP = 100; FP = 10; FN = 50; TN = 1).
 
-Achieved overall confusion matrix in %:<br>
+Achieved overall confusion matrix (across all 36 output categories) in %:<br>
 
 | 		|	| Predicted category	|	|
 |---------------|------:|:---------------------:|:-----:|
