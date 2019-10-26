@@ -1,0 +1,66 @@
+[nltk_data] Downloading package punkt to /root/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /root/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package wordnet to /root/nltk_data...
+[nltk_data]   Package wordnet is already up-to-date!
+Loading data...
+    DATABASE: data/DisasterResponse.db
+Building model...
+Training model...
+Evaluating model...
+GridSearchCV results:
+
+{'mean_fit_time': array([  95.62147133,  312.56394633]), 'std_fit_time': array([ 1.60704148,  3.90315915]), 'mean_score_time': array([ 36.97105257,  50.19278955]), 'std_score_time': array([ 0.35667478,  0.36033878]), 'param_clf__estimator__n_estimators': masked_array(data = [10 100],
+             mask = [False False],
+       fill_value = ?)
+, 'params': [{'clf__estimator__n_estimators': 10}, {'clf__estimator__n_estimators': 100}], 'split0_test_score': array([ 0.94638697,  0.94952613]), 'split1_test_score': array([ 0.94611199,  0.94908006]), 'split2_test_score': array([ 0.94631943,  0.94906809]), 'mean_test_score': array([ 0.9462728 ,  0.94922478]), 'std_test_score': array([ 0.00011701,  0.00021316]), 'rank_test_score': array([2, 1], dtype=int32)}
+
+
+Accuracy per category:
+
+                        accuracy
+aid_centers             0.988704
+aid_related             0.790350
+buildings               0.955964
+child_alone             1.000000
+clothing                0.986598
+cold                    0.981811
+death                   0.956347
+direct_report           0.856979
+earthquake              0.974727
+electricity             0.979131
+fire                    0.991001
+floods                  0.953858
+food                    0.950412
+hospitals               0.987938
+infrastructure_related  0.933372
+medical_help            0.918821
+medical_products        0.954624
+military                0.968600
+missing_people          0.986981
+money                   0.975876
+offer                   0.995022
+other_aid               0.874402
+other_infrastructure    0.955581
+other_weather           0.952901
+refugees                0.964388
+related                 0.823856
+request                 0.896611
+search_and_rescue       0.975684
+security                0.981811
+shelter                 0.945625
+shops                   0.994256
+storm                   0.943519
+tools                   0.994831
+transport               0.956347
+water                   0.956155
+weather_related         0.889336
+Overall Confusion Matrix in %:
+(cols and rows = 0,1; C{i, j}: true i, predicted j)
+
+[[ 90.0%   1.1%]
+ [  3.9%   4.9%]]
+Saving model...
+    MODEL: models/classifier.pkl
+Trained model saved!
